@@ -1,4 +1,4 @@
-# token-mint-487bbf
+# token-mint-175bed
 
 A Rust token-mint utility.
 

